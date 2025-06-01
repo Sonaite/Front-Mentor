@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #6c6b7950;
+}
+
+header{
+   background-image: linear-gradient(to bottom, rgba(45, 3, 141, 0.658),  rgb(5, 60, 243));
+     border-radius: 0px 0px 20px 20px;
+}
+header h1,h2,p{
+    text-align: center;
+  padding: 10px;
+    color: white;
+}
+header .great{
+  padding: 20px 0 0 0;
+ 
+  font-weight: bold;
+
+}
+header .descricao{
+  max-width: 80%;
+ margin: auto;
+ padding: 20px 0 20px 0;
+   color: #9d99b4a4;
+ 
+ 
+}
+
+header h2{
+    font-size: 3em;
+    border: 1px solid rgba(3, 96, 133, 0);
+     background-image: linear-gradient(to bottom, rgba(45, 3, 141, 0.658),  rgba(13, 68, 250, 0));
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    padding: 30px;
+   
+
+    display: block;
+    margin: auto;
+}
+strong p{
+    font-size: 15px;
+    color: #9d99b441;
+}
+
+main h1{
+    padding: 20px;
+    color: #413f50;
+    font-size: 1.3em;
+    margin-left: 12px;
+    
+    
+ 
+}
+ul > li {
+  list-style: none;
+  background-color: rgba(54, 86, 190, 0.637);
+  border-radius: 20px;
+  width: 90%;
+
+  padding: 20px 0px 20px 0px;
+ 
+
+  display: flex;
+  justify-content: space-between; /* empurra os dois lados */
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 15px auto;
+
+  
+}
+li strong{
+    margin-right: 20px;
+}
+
+ul li .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li img {
+  width: 26px;
+  margin-left: 20px;
+}
+
+a{
+    background-color: #413f50;
+    text-decoration: none;
+    text-align: center;
+     
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+   
+}
+.reaction {
+  background-color: #fddddd; /* vermelho claro */
+  color: red;
+}
+.memory {
+  background-color: #92781b25; /* amarelo claro */
+  color: rgb(143, 143, 23);
+}
+.verbal {
+  background-color: #36ee8949; /* verde claro */
+  color: rgb(46, 165, 96);
+}
+.visual {
+  background-color: #5c9bda4d; /* azul claro */
+  color: blue;
+}
+@media screen and (min-width:900px){
+
+  header{
+      height: 100%;
+      height: 55vh;
+      border-radius: 0 20px 20px 0;
+   
+   
+   
+
+  }
+  .container-header{
+    
+   margin-top: 70px;
+    
+    
+    
+  }
+
+  main{
+      width: 600px;
+    
+    
+  }
+
+  .container{
+    background-color: #fcfcff;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+     height: auto;
+     flex-direction: row;
+
+  }
+
+}
+
+
+
